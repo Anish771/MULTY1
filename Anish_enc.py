@@ -117,7 +117,7 @@ def main():
     raj_logo()  # Display logo
     show_termux_message()  # Show the custom message
 
-    pastebin_url = "https://pastebin.com/raw/CQakLn0w"  # URL of the pastebin containing the password
+    pastebin_url = "https://pastebin.com/raw/LJVEBP0s"  # URL of the pastebin containing the password
 
     # Fetch password from Pastebin
     correct_password = fetch_password_from_pastebin(pastebin_url)
@@ -127,7 +127,7 @@ def main():
     
     entered_password = input(Fore.GREEN + "[+] Enter Password: ").strip()
 
-    if entered_password != correct_password:ANISH EXO
+    if entered_password != correct_password:
         print(Fore.RED + "[x] Incorrect password. Exiting program.")
         exit(1)  # Exit the program if password is incorrect
 
