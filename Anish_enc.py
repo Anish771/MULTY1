@@ -127,7 +127,7 @@ def main():
     
     entered_password = input(Fore.GREEN + "[+] Enter Password: ").strip()
 
-    if entered_password != correct_password:
+    if entered_password != correct_password:ANISH EXO
         print(Fore.RED + "[x] Incorrect password. Exiting program.")
         exit(1)  # Exit the program if password is incorrect
 
